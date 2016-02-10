@@ -1,0 +1,31 @@
+.stupidity {
+  position: absolute;
+  font-family: 'Slabo 27px', serif;
+  font-size: 37px;
+  text-align: center;
+  display: table;
+  border-spacing: 20px;
+  width: 400px;
+  height: 400px;
+}
+
+.row {
+  display: table-row;
+}
+
+.box {
+  display: table-cell;
+  vertical-align: middle;
+  border: #efefef solid 5px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.no-border {
+  border: none;
+}
+
+.tapped {
+  background: rgb(80, 200, 200);
+}
